@@ -144,6 +144,11 @@ main h1{
     scale: 0.8;
 }
 
+.introduce h3{
+    font-size: 20px;
+    font-weight: 700;
+}
+
 .introduceContainer{
     display: flex;
     flex-direction: column;
@@ -377,7 +382,7 @@ footer p{
     }
 
     .introduceItem span{
-        width: 60%;
+        width: 50%;
     }
 
     .introduceItem2{
@@ -393,6 +398,10 @@ footer p{
 @media (max-width: 992px) {
     .navbar-nav{
         margin-left: 0;
+    }
+
+    .introduceItem span{
+        width: 75%;
     }
 
     .serviceItem .item{
